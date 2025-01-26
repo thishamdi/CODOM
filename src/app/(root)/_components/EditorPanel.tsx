@@ -42,7 +42,7 @@ function EditorPanel() {
   if (!mounted) return null;
 
   return (
-    <div className="relative z-50">
+    <div className="relative z-1">
       <div className="flex flex-col h-full relative bg-[#0a0a0f]/80 backdrop-blur-xl  ring-1 ring-gray-800/50 p-6">
         {/* Header */}
         <div className="flex items-center justify-between mb-4 h-[36px] flex-wrap">
@@ -86,7 +86,7 @@ function EditorPanel() {
         </div>
 
         {/* Editor */}
-        <div className="relative flex-grow group ring-1 ring-gray-800/50">
+        <div className="relative h-[500px] flex-grow group ring-1 ring-gray-800/50">
           <Editor
             height="100%"
             language={LANGUAGE_CONFIG[language].monacoLanguage}

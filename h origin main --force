@@ -1,0 +1,23 @@
+[33mcommit ec812322340c7a83fd156e6535e6e430f81e4c7b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: thishamdi <hghayadha2001@gmail.com>
+Date:   Sun Jan 26 04:31:57 2025 +0100
+
+    Fix dependency conflict 2
+
+[33mcommit d006b87f98a943d0092c56d088a5ab9db44d46e8[m
+Author: thishamdi <hghayadha2001@gmail.com>
+Date:   Sun Jan 26 04:00:37 2025 +0100
+
+    Fix dependency conflict
+
+[33mcommit e13da615aa987569fa51472f5f4c5df1ca4ca3f5[m[33m ([m[1;32mmaster[m[33m)[m
+Author: thishamdi <hghayadha2001@gmail.com>
+Date:   Sun Jan 26 03:39:55 2025 +0100
+
+    code dom app
+
+[33mcommit f07c3f64280bba234fd795d068d80df9725ac97c[m
+Author: thishamdi <hghayadha2001@gmail.com>
+Date:   Wed Jan 22 23:42:36 2025 +0100
+
+    Initial commit from Create Next App

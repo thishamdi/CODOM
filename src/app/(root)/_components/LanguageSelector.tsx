@@ -34,7 +34,7 @@ function LanguageSelector() {
     if (!mounted) return null;
 
     return (
-        <div className="relative" ref={dropdownRef}>
+        <div className="relative z-100" ref={dropdownRef}>
             <motion.button
                 whileTap={{ scale: 0.98 }}
                 onClick={() => setIsOpen(!isOpen)}
@@ -52,7 +52,7 @@ function LanguageSelector() {
                         alt="programming language logo"
                         width={20}
                         height={20}
-                        className="w-full h-full object-contain relative z-10"
+                        className="w-full h-full object-contain relative z-100"
                     />
                 </div>
 
@@ -72,7 +72,7 @@ function LanguageSelector() {
                         animate={{ opacity: 1, y: 0, scale: 1 }}
                         exit={{ opacity: 0, y: 8, scale: 0.96 }}
                         transition={{ duration: 0.1 }}
-                        className="absolute top-full left-0 mt-2 w-60 bg-[#1e1e2e]/95 backdrop-blur-xl  border border-[#313244] shadow-2xl py-2 z-50"
+                        className="z-100 absolute top-full left-0 mt-2 w-60 bg-[#1e1e2e]/95 backdrop-blur-xl  border border-[#313244] shadow-2xl py-2"
                     >
                         <div className="px-3 pb-2 mb-2 border-b border-gray-800/50">
                             <p className="text-xs font-medium text-gray-400">Select Language</p>
@@ -107,7 +107,7 @@ function LanguageSelector() {
                                                 height={24}
                                                 src={lang.logoPath}
                                                 alt={`${lang.label} logo`}
-                                                className="w-full h-full object-contain relative z-10"
+                                                className="w-full h-full object-contain relative z-100"
                                             />
                                         </div>
 
