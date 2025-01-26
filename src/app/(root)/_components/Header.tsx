@@ -59,7 +59,7 @@ function Header() {
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
         <div className="lg:hidden my-4 bg-[#0a0a0f]/80 backdrop-blur-xl p-6">
-          <div className="flex items-center gap-4 flex-wrap">
+          <div className="flex items-center gap-3 flex-wrap">
             <ThemeSelector />
             <LanguageSelector />
             <RunButton />

@@ -45,7 +45,7 @@ function EditorPanel() {
     <div className="relative z-1">
       <div className="flex flex-col h-full relative bg-[#0a0a0f]/80 backdrop-blur-xl  ring-1 ring-gray-800/50 p-6">
         {/* Header */}
-        <div className="flex items-center justify-between mb-4 h-[36px] flex-wrap">
+        <div className="flex items-center justify-between gap-3 mb-4  min-h-[36px] flex-wrap">
           <div className="flex items-center gap-3">
             <div className="flex items-center justify-center w-8 h-8  bg-[#1e1e2e] ring-1 ring-white/5">
               <Image src={"/" + language + ".png"} alt="Logo" width={24} height={24} />
